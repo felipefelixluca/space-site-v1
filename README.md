@@ -4,7 +4,7 @@ Designer: Felipe Felix de Luca
 
 Portfolio: https://jp.pinterest.com/felipefelixluca/
 
-All the content in this project is destinated to be a job application.
+All the content in this project is destined for a job application.
 
 Theme: Space Shooter. Post application: Web Designer.
 
@@ -22,7 +22,7 @@ Pads: Not yet
 
 ポートフォリオ：https://jp.pinterest.com/felipefelixluca/
 
-この企画に対するコンテンツは全て私のwebデザイナーの募集の為の提出。
+この企画に対するコンテンツは全てwebデザイナーの募集のため作成しました
 
 テーマ：スペースインベーダーのような、スペースSF×ミニマムデザイン
 
