@@ -359,6 +359,7 @@ nav{
 }
 
 #title{
+	font-size: 20rem;
 	background-image: url(../images/mainLogo.svg);
 	background-repeat: no-repeat;
 	background-size: 40% auto;
@@ -895,7 +896,7 @@ nav{
 #footer #footerRight div:first-child{
 	background: url(../images/footerTxt.svg) no-repeat;
 	background-position: left 85%;
-	width: 35%;
+	width: 41%;
 }
 
 #footer #footerRight a{
