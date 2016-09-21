@@ -18,6 +18,8 @@ Smatphone: Ok in iPhone6 and similar
 
 Pads: Not yet
 
+Future implementations: left corner scroll status, top logo glow on hover, menu close on mouse off
+
 ーーーーーーーーーーー
 
 デザイナー：フェリペ・フェリックス
@@ -37,3 +39,5 @@ Pads: Not yet
 スマホ用: iPhone6ぐらいのサイズで修正中
 
 タブレット: まだまだ
+
+次版の希望: 左側のスクロールステータス、上のロゴはマウスオーバーで光る、マインメニューはマウスオフで閉める
