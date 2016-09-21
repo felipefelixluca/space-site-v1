@@ -16,9 +16,9 @@ PC Render: OK in 1300px and up
 
 Smatphone: Ok in iPhone6 and similar
 
-Pads: Not yet
+Tablets: Not yet
 
-Future implementations: left corner scroll status, top logo glow on hover, menu close on mouse off, japanese translation
+Future implementations: left corner scroll status, top logo glow on hover, menu close on mouse off
 
 ーーーーーーーーーーー
 
@@ -40,4 +40,4 @@ Future implementations: left corner scroll status, top logo glow on hover, menu 
 
 タブレット: まだまだ
 
-次版の希望: 左側のスクロールステータス、上のロゴはマウスオーバーで光る、マインメニューはマウスオフで閉める、和訳
+次版の希望: 左側のスクロールステータス、上のロゴはマウスオーバーで光る、マインメニューはマウスオフで閉める
