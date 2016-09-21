@@ -8,6 +8,8 @@ All the content in this project is destined for a job application.
 
 Theme: Space Shooter. Post application: Web Designer.
 
+Framework: https://github.com/dhg/Skeleton
+
 **Status:**
 
 PC Render: OK in 1300px and up
@@ -25,6 +27,8 @@ Pads: Not yet
 この企画に対するコンテンツは全てwebデザイナーの募集のため作成しました
 
 テーマ：スペースインベーダーのような、スペースSF×ミニマムデザイン
+
+フレームワーク： https://github.com/dhg/Skeleton
 
 **ステータス**
 
