@@ -7,26 +7,6 @@
 * 12/29/2014
 */
 
-
-/* Table of contents
-––––––––––––––––––––––––––––––––––––––––––––––––––
-- Grid
-- Base Styles
-- Typography
-- Links
-- Buttons
-- Forms
-- Lists
-- Code
-- Tables
-- Spacing
-- Utilities
-- Clearing
-- Media Queries
-*/
-
-@import 'https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700';
-
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -125,7 +105,6 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: 'Rajdhani', sans-serif;
   color: #222; }
 
 
