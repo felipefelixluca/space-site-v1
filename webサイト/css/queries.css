@@ -1,0 +1,182 @@
+@media (max-width: 1600px) and (min-width: 1600px) {
+	#main-menu #logo{
+		left: 16%;
+	}
+	#main-menu #menuLinks{
+		right: 22%;
+	}
+	#scrollStatus{
+		bottom: 36%;
+		left: 8.4999999%;
+	}
+	#title{
+		font-size: 20rem;
+		letter-spacing: 13rem;
+	}
+	#introVideo{
+		width: 400px;
+		bottom: 25%;
+	}
+	#introMessage h2{
+		font-size: 4rem;
+	}
+	#introMessage h3{
+		font-size: 2.2rem;
+	}
+	#scroll svg{
+		height: 45px;
+	}
+	#guide .controls h4,
+	#guide .score h4,
+	#guide .items h4,
+	#guideRight .steps h4{
+		font-size: 1.5rem;
+	}
+	#guide .controls h5,
+	#guide .score h5,
+	#guide .items h5,
+	#guideRight .steps h5,
+	#guideRight .steps h6{
+		font-size: 2.5rem;
+	}
+	#guideRight .steps .smallImg{
+		width: 80%;
+	}
+}
+
+@media (max-width: 1366px) {
+	#pg-stripes .bg-stripes {
+    	width: 14.2858%;
+	}
+	#main-menu #logo{
+		left: 17%;
+	}
+	#main-menu #menuLinks{
+		right: 20.5%;
+	}
+	#scrollStatus{
+		bottom: 26%;
+		left: 9%;
+	}
+	#title{
+		font-size: 10rem;
+		background-image: url(../images/mainLogo.svg);
+    	background-repeat: no-repeat;
+    	background-size: 44% auto;
+    	background-position: 30% 55%;
+    	height: 144px;
+    	letter-spacing: 12.5rem;
+	}
+	#introVideo{
+		width: 250px;
+		bottom: 30%;
+	}
+	#introMessage h2{
+		font-size: 3.5rem;
+	}
+	#introMessage h3{
+		font-size: 1.8rem;
+	}
+	#scroll svg{
+		height: 35px;
+	}
+	#guide .controls h4,
+	#guide .score h4,
+	#guide .items h4,
+	#guideRight .steps h4{
+		font-size: 1.2rem;
+	}
+	#guide .controls h5,
+	#guide .score h5,
+	#guide .items h5,
+	#guideRight .steps h5,
+	#guideRight .steps h6{
+		font-size: 1.7rem;
+	}
+	#guideRight .steps .smallImg{
+		width: 90%;
+	}
+}
+
+@media (max-width: 1024px) {
+	#pg-stripes .bg-stripes {
+    	width: 9.0909%;
+	}
+	
+}
+
+@media (max-width: 400px) {
+	#main-menu #logo{
+		left: 4%;
+		width: 120px;
+	}
+	#logo-bottom{
+		left: 0;
+		width: 150px;
+		margin-top: -3px;
+	}
+	#logo-bottom::before,
+	#menuBtn-bottom::after,
+	#main-menu #language{
+		display: none;
+	}
+	#title{
+		font-size: 8rem;
+		letter-spacing: 1rem;
+	    background-repeat: no-repeat;
+	    background-size: 60% auto;
+	    background-position: 26% 10%;
+	    height: 100px;
+	}
+
+	#introMessage h2{
+		font-size: 2.2rem;
+	}
+
+	#introMessage h3{
+		font-size: 1.3rem;
+	}
+
+	.column, .columns{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#footer{
+		display: table;
+	}
+
+	#footerLeft{
+		display: table-footer-group;
+		float: none;
+	}
+
+	#footerLeft img{
+		display: block;
+		margin: 0 auto;
+	}
+
+	#footerRight{
+		display: table-header-group;
+		float: none;
+	}
+
+	#footer #footerRight div:first-child{
+		width: 120px;
+	}
+
+	#footer #footerRight div:nth-child(2){
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
