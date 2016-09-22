@@ -5,6 +5,7 @@ Designer: Felipe Felix de Luca
 Portfolio: https://jp.pinterest.com/felipefelixluca/
 
 All the content in this project is destined for a job application.
+Except the video shown in the top of the page, all the content was designed by me.
 
 Theme: Space Shooter. Post application: Web Designer.
 
@@ -27,6 +28,8 @@ Future implementations: left corner scroll status, top logo glow on hover, menu 
 ポートフォリオ：https://jp.pinterest.com/felipefelixluca/
 
 この企画に対するコンテンツは全てwebデザイナーの募集のため作成しました
+
+トップの映像以外の物は私は制作した物です
 
 テーマ：スペースインベーダーのような、スペースSF×ミニマムデザイン
 
