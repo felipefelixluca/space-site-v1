@@ -16,9 +16,9 @@ PC Render: OK in 1300px and up
 
 Smatphone: Ok in iPhone6 and similar
 
-Tablets: Not yet
+Tablets: Under construction
 
-Future implementations: left corner scroll status, top logo glow on hover, menu close on mouse off
+Future implementations: left corner scroll status, top logo glow on hover, menu close on mouse off, tablets and other mobile devices version of the site
 
 ーーーーーーーーーーー
 
@@ -38,6 +38,6 @@ Future implementations: left corner scroll status, top logo glow on hover, menu 
 
 スマホ用: iPhone6ぐらいのサイズで修正中
 
-タブレット: まだまだ
+タブレット: 制作中
 
-次版の希望: 左側のスクロールステータス、上のロゴはマウスオーバーで光る、マインメニューはマウスオフで閉める
+次版の希望: 左側のスクロールステータス、上のロゴはマウスオーバーで光る、マインメニューはマウスオフで閉める、タブレットや別モバイル用のバージョンを制作
