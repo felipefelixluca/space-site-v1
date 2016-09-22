@@ -703,9 +703,6 @@ nav{
 
 #guideRight .ship{
 	opacity: 1;
-	transform: translatex(0px) translatey(0px);
-	-webkit-animation: ship .75s ease-out 1;
-	animation: ship .75s ease-out 1;
 }
 
 @keyframes ship {
@@ -728,6 +725,13 @@ nav{
         transform: translatex(0px) translatey(0px);
 				opacity: 1;
     }
+}
+
+.ship.in-view {
+  opacity: 1;
+  transform: translatex(0px) translatey(0px);
+	-webkit-animation: ship .75s ease-out 2s 1;
+	animation: ship .75s ease-out 1;
 }
 
 #guideRight .screen img{

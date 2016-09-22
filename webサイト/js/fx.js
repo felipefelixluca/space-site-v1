@@ -32,40 +32,39 @@ jQuery.fn.extend({
 //dots generator
 
 (function ($) {
-    "use strict";
-    $.fn.generateBackground = function (options) {
+	"use strict";
+		$.fn.generateBackground = function (options) {
+			var settings = $.extend({
+				circleSize : 5,
+				circlesHigh: 5,
+				circlesWide: 5,
+				circlePadding: 50
+			}, options);
 
-        var settings = $.extend({
-            circleSize : 5,
-            circlesHigh: 5,
-            circlesWide: 5,
-            circlePadding: 50
-        }, options);
+		return this.each(function () {
+				var $this = $(this),
+				width = (settings.circleSize + settings.circlePadding) * settings.circlesWide,
+				height = (settings.circleSize + settings.circlePadding) * settings.circlesHigh,
+				radius = settings.circleSize / 2,
+				background = "<svg xmlns='http://www.w3.org/2000/svg' width='" + width + "' height='" + height + "'>",
+				color = "#333",
+				x,
+				y;
 
-        return this.each(function () {
-            var $this = $(this),
-                width = (settings.circleSize + settings.circlePadding) * settings.circlesWide,
-                height = (settings.circleSize + settings.circlePadding) * settings.circlesHigh,
-                radius = settings.circleSize / 2,
-                background = "<svg xmlns='http://www.w3.org/2000/svg' width='" + width + "' height='" + height + "'>",
-                color = "#333",
-                x,
-                y;
+			for (x = radius; x < width; x += settings.circleSize + settings.circlePadding) {
+					for (y = radius; y < height; y += settings.circleSize + settings.circlePadding) {
+							background += "<circle fill='" + color + "' cx='" + x + "' cy='" + y + "' r='" + radius + "'/>";
+					}
+			}
 
-            for (x = radius; x < width; x += settings.circleSize + settings.circlePadding) {
-                for (y = radius; y < height; y += settings.circleSize + settings.circlePadding) {
-                    background += "<circle fill='" + color + "' cx='" + x + "' cy='" + y + "' r='" + radius + "'/>";
-                }
-            }
+			background += "</svg>";
 
-            background += "</svg>";
+			var b64 = 'data:image/svg+xml;base64,' + window.btoa(background),
+					url = 'url("' + b64 + '")';
+			$this.css('backgroundImage', url);
 
-            var b64 = 'data:image/svg+xml;base64,' + window.btoa(background),
-                url = 'url("' + b64 + '")';
-            $this.css('backgroundImage', url);
-
-        });
-    };
+		});
+	};
 }(jQuery));
 
 $('#play').generateBackground();
@@ -73,16 +72,44 @@ $('#play').generateBackground();
 //scroll
 
 $(function() {
-		  $('a[href*="#"]:not([href="#"])').click(function() {
-		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-		      var target = $(this.hash);
-		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-		      if (target.length) {
-		        $('html, body').animate({
-		          scrollTop: target.offset().top
-		        }, 1000);
-		        return false;
-		      }
-		    }
-		  });
-		});
+	$('a[href*="#"]:not([href="#"])').click(function() {
+		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			if (target.length) {
+				$('html, body').animate({
+					scrollTop: target.offset().top
+				}, 1000);
+				return false;
+			}
+		}
+	});
+});
+
+//ship animation
+
+var $animation_elements = $('.ship');
+		var $window = $(window);
+
+		function check_if_in_view() {
+			var window_height = $window.height();
+			var window_top_position = $window.scrollTop();
+			var window_bottom_position = (window_top_position + window_height);
+
+			$.each($animation_elements, function() {
+				var $element = $(this);
+				var element_height = $element.outerHeight();
+				var element_top_position = $element.offset().top;
+				var element_bottom_position = (element_top_position + element_height);
+
+				if ((element_bottom_position >= window_top_position) &&
+					(element_top_position <= window_bottom_position)) {
+					$element.addClass('in-view');
+				} else {
+					$element.removeClass('in-view');
+				}
+			});
+		}
+
+$window.on('scroll resize', check_if_in_view);
+$window.trigger('scroll');
