@@ -1,46 +1,10 @@
 # space-site-v1
 
-Designer: Felipe Felix de Luca
+Design & Development: Felipe Felix de Luca
 
-Portfolio: https://jp.pinterest.com/felipefelixluca/
+This is an experimental project with no financial purpose.
+Except for the video on top page, all the content was designed by me.
 
-All the content in this project is destined for a job application.
-Except the video shown in the top of the page, all the content was designed by me.
-
-Theme: Space Shooter. Post application: Web Designer.
+Theme: Space Shooter.
 
 Framework: https://github.com/dhg/Skeleton
-
-**Status:**
-
-PC Render: OK in 1300px and up
-
-Smatphone: Ok in iPhone6 and similar
-
-Tablets: Under construction
-
-Future implementations: left corner scroll status, top logo glow on hover, menu close on mouse off, tablets and other mobile devices version of the site
-
-ーーーーーーーーーーー
-
-デザイナー：フェリペ・フェリックス
-
-ポートフォリオ：https://jp.pinterest.com/felipefelixluca/
-
-この企画に対するコンテンツは全てwebデザイナーの募集のため作成しました
-
-トップの映像以外の物は私は制作した物です
-
-テーマ：スペースインベーダーのような、スペースSF×ミニマムデザイン
-
-フレームワーク： https://github.com/dhg/Skeleton
-
-**ステータス**
-
-パソコン用: 1300px と 1300pxより大きいディスプレーでOK
-
-スマホ用: iPhone6ぐらいのサイズで修正中
-
-タブレット: 制作中
-
-次版の希望: 左側のスクロールステータス、上のロゴはマウスオーバーで光る、マインメニューはマウスオフで閉める、タブレットや別モバイル用のバージョンを制作
